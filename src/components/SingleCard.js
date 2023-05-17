@@ -7,7 +7,7 @@ const SingleCard = ({card,coverImage}) => {
     <div>
       <img className="front" src={card.src} alt="card front" />
       <img className="back" src={coverImage} alt="card back" />
-    </div>
+    </div>   
   </div>
   )
 }
