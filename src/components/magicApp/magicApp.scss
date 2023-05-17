@@ -1,0 +1,22 @@
+
+
+
+ .magic-app{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+  background-color: aqua;
+  height: 100vh;
+
+  
+
+  .card-grid{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+ }
