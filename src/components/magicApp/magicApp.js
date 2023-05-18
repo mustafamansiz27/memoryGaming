@@ -6,6 +6,8 @@ import SingleCard from "../SingleCard";
 const MagicApp = () => {
   const [cards, setCards] = useState([]);
   const [turns, setTurns] = useState(0);
+  const [choiceOne, setChoiceOne] = useState(null)
+  const [choiceTwo, setChoiceTwo] = useState(null)
 
   const cardImages = [
     { src: require("../../assests/image/helmet-1.png") },
